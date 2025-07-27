@@ -5,11 +5,25 @@ body {
   background: #f7f7f7;
   color: #333;
 }
-header {
+header.hero {
   background-color: #1e1e1e;
   color: white;
-  padding: 40px 20px;
   text-align: center;
+  padding: 80px 20px;
+}
+header.hero h1 {
+  font-size: 3em;
+}
+header.hero p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+.cta-button {
+  background: #e63946;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 nav {
   background-color: #333;
@@ -25,11 +39,11 @@ nav a:hover {
   background-color: #555;
 }
 main {
-  padding: 20px;
+  padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
 }
-section h2 {
+main h2 {
   color: #1e1e1e;
 }
 form input, form textarea {
@@ -50,10 +64,30 @@ form button {
 form button:hover {
   background-color: #333;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+blockquote {
+  background: #eee;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #888;
+}
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
 footer {
   background-color: #1e1e1e;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin-top: 40px;
 }
